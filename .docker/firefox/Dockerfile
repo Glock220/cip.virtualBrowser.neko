@@ -33,3 +33,5 @@ COPY autoconfig.js /usr/lib/firefox/defaults/pref/autoconfig.js
 COPY policies.json /usr/lib/firefox/distribution/policies.json
 COPY --chown=neko profiles.ini /home/neko/.mozilla/firefox/profiles.ini
 COPY openbox.xml /etc/neko/openbox.xml
+
+EXPOSE 8080
